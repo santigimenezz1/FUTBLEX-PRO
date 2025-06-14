@@ -7,6 +7,44 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:131865096972:android:70f2b6ef214eae311a0f29",
+        "android_client_info": {
+          "package_name": "com.futblexpro.futblexpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7oMM85NI4CSiMFsGCD_6EqGIh669CKAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131865096972:android:f419f8ac7847fdda1a0f29",
+        "android_client_info": {
+          "package_name": "com.santiagofittlline.fittlline"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7oMM85NI4CSiMFsGCD_6EqGIh669CKAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:131865096972:android:f2be5f9a65a0bbd81a0f29",
         "android_client_info": {
           "package_name": "com.santigimenezz.proyectoNative"
