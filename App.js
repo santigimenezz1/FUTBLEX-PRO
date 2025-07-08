@@ -1,8 +1,7 @@
+import 'react-native-gesture-handler';
 import React, { useEffect, useContext } from 'react';
 import { Alert, Text, Image, View } from 'react-native';
-import VersionCheck from 'react-native-version-check';
 import * as Linking from 'expo-linking';
-import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import HomeNavigator from './pages/Home/HomeNavigator.js';
@@ -17,11 +16,16 @@ import FlashMessage from 'react-native-flash-message';
 import { RFValue } from 'react-native-responsive-fontsize';
 import { Roboto_400Regular } from '@expo-google-fonts/roboto';
 import Lenguaje from './pages/Lenguaje/Lenguaje.jsx';
+import AntDesign from '@expo/vector-icons/AntDesign';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
+
 
 const Tab = createBottomTabNavigator();
 
 function MyTabs() {
   const { closed, setClosed, userRegistro, setUserOnline, userOnline, idiomaActual } = useContext(CartContext);
+ 
 
   return (
     <Tab.Navigator
@@ -88,7 +92,7 @@ function MyTabs() {
         options={{
           tabBarIcon: ({ focused }) => (
             <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-              <FontAwesome5 name="play" size={20} color={focused ? '#34cee6' : 'white'} />
+              <AntDesign name="caretright" size={24} color={focused ? '#34cee6' : 'white'} />
             </View>
           ),
         }}
@@ -114,7 +118,7 @@ function MyTabs() {
         options={{
           tabBarIcon: ({ focused }) => (
             <View style={{ alignItems: 'center', justifyContent: 'center' }}>
-              <Octicons name="person-fill" size={26} color={focused ? '#34cee6' : 'white'} />
+              <AntDesign name="user" size={24} color={focused ? '#34cee6' : 'white'} />
             </View>
           ),
         }}

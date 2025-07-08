@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "FITTLLINE",
-    "slug": "fittlline",
+    "name": "FUTBLEX PRO",
+    "slug": "futblex-pro",
     "version": "1.0.8",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,21 +13,21 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.santigimenezz.proyectoNative",
+      "bundleIdentifier": "com.futblexpro.futblexpro",
       "googleServicesFile": "./GoogleService-Info.plist",
       "jsEngine": "hermes",
       "buildNumber": "1.0.8"
     },
     "android": {
+      "package": "com.futblexpro.futblexpro",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [],
+      "jsEngine": "hermes",
+      "versionCode": 8,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.santiagofittlline.fittlline",
-      "permissions": [],
-      "googleServicesFile": "./google-services.json",
-      "jsEngine": "hermes",
-      "versionCode": 8
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -46,7 +46,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "273eb797-9131-40e0-86af-a1f357d453e6"
+        "projectId": "e8a50143-b5d6-4ffc-a96e-4891fd921ade"
       }
     }
   }

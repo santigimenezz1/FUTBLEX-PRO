@@ -109,9 +109,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.santigimenezz.proyectoNative'
+    namespace "com.futblexpro.futblexpro"
     defaultConfig {
-        applicationId 'com.santigimenezz.proyectoNative'
+        applicationId 'com.futblexpro.futblexpro'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 8

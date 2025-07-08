@@ -184,10 +184,10 @@ const Registro = ({ navigation }) => {
   return (
     <View style={styles.container__inicioSesion}>
       <Image
-        width={230}
-        height={45}
+        width={250}
+        height={65}
         source={{
-          uri: 'https://res.cloudinary.com/dcf9eqqgt/image/upload/v1726996815/APP%20ALFOMBRA%20DE%20FUTBOL%20AMAZON/icon_xoqflq.jpg'
+          uri: 'https://res.cloudinary.com/dcf9eqqgt/image/upload/v1749657398/by_futblex_pro_12_dy9xpw.png'
         }}
       />
 
