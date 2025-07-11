@@ -43,6 +43,7 @@
     "react-i18next": "^15.0.2",
     "react-native": "0.74.5",
     "react-native-animated-spinkit": "^1.5.2",
+    "react-native-elements": "^3.4.3",
     "react-native-flash-message": "^0.4.2",
     "react-native-gesture-handler": "~2.16.1",
     "react-native-guide": "^0.5.2",
